@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+header {
+    background-image: url('https://source.unsplash.com/1600x900/?technology');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+#gmail-emails {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#signin-button, #signout-button {
+    margin-top: 15px;
+}
